@@ -1,0 +1,81 @@
+{
+  "authority_boundary": "This receipt verifies a local case card. It cannot revive a claim, clear private-first, publish, mail, commit, or push.",
+  "case_id": "AST-04",
+  "checks": {
+    "core_matches_live_ledger": "PASS",
+    "declared_source_hashes": "PASS",
+    "frozen_live_file_and_ledger": "PASS",
+    "governed_annotations": "PASS",
+    "live_g23_closeouts": "PASS_OR_NOT_APPLICABLE",
+    "private_first_public_gate": "NOT_TRIGGERED",
+    "semantic_continuity": "V1_ACCEPTED_UNCHANGED"
+  },
+  "claim_authority": "NONE",
+  "decision_reasons": [
+    "The case stayed byte-identical to its accepted V1 card and all current custody checks pass."
+  ],
+  "disposition": "POSTABLE_AS_COLD_CASE",
+  "public_catalog_eligible": true,
+  "receipt_sha256": "a467a7052d89082ab09039c811ee5733f4330e2b97ca706121fdf93f94a33527",
+  "route_id": "COLD_CASE_PIPELINE_CURRENT_INDEX_REVERIFICATION_V3",
+  "schema": "aletheia.cold-case-live-verification.v3",
+  "source_bindings": {
+    "case_file": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/cases/COLD_CASE_AST-04.md",
+    "case_file_sha256": "7f2b7a3d42e50a959267adbfeaca28c22c6cd6586f3a52ff750f0fdb04603fa5",
+    "declared_sources": [
+      {
+        "declared_sha256": "c057c0597dd12d270b55631d5beb9d4b4b1cb24d02fffdb23062c48ef79f0d67",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "c057c0597dd12d270b55631d5beb9d4b4b1cb24d02fffdb23062c48ef79f0d67",
+        "path": "/Users/bo/data/adp/investigations/chime_repeater_dm_boundary_discovery_2026-08-06/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "f34b59ace6cec1d368206d39496bbd74d40ade3464fd6a911f09d4eb04036fdc",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "f34b59ace6cec1d368206d39496bbd74d40ade3464fd6a911f09d4eb04036fdc",
+        "path": "/Users/bo/data/adp/investigations/chime_second_representation_2026-08-13_v1/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "76633f1dec6a9ed6745627ce5be341e9f80cfe4498e0dbc8476c85f0dabd20ad",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "76633f1dec6a9ed6745627ce5be341e9f80cfe4498e0dbc8476c85f0dabd20ad",
+        "path": "/Users/bo/data/adp/investigations/chime_selection_function_followup_2026-08-05/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "c1348b319df296f13ce61a21ccc123e6e77cf1a766962a597788f99fc8cdcc5c",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "c1348b319df296f13ce61a21ccc123e6e77cf1a766962a597788f99fc8cdcc5c",
+        "path": "/Users/bo/data/adp/investigations/chime_source_specific_dm_drift_2026-08-06/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "a349838ba4c25775147b232d535f044d0f9e126a76eeb61ad498bdc44dcd8c96",
+        "g23_currency": "NOT_APPLICABLE",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "a349838ba4c25775147b232d535f044d0f9e126a76eeb61ad498bdc44dcd8c96",
+        "path": "/Users/bo/Documents/Brain/Jumps/C360.md"
+      }
+    ],
+    "ledger": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/COLD_CASE_LEDGER.csv",
+    "ledger_row_sha256": "59755da8cf9d7547a45301b4179e4598d736f58ce9899076896a3594cd4ec5b1",
+    "ledger_sha256": "43f656121adc1a155d92f579711f8d98f623876d7d1ed0a2c82019c140c28afe",
+    "semantic_adjudication": {
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/09_live_reverification/LIVE_EDIT_SEMANTIC_ADJUDICATION_V2.md",
+      "sha256": "858787a6d4dcd7b10913735756bf3646fa3e731f7071c84f956f54aba34efa9c"
+    },
+    "v1_final_receipt": {
+      "bytes": 2045,
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/02_case_verification_final/AST-04.json",
+      "sha256": "951b6298f7782d2a6b63b10c507de42be2be63b5973ec9ed695c4b6c03b2ce39"
+    }
+  },
+  "verdict": "ACCEPTED"
+}
